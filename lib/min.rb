@@ -12,4 +12,5 @@ def get_the_min(groceries)
   groceries.values = new_array
   new_array.sort = sorted_array
   sorted_array.first 
+binding.pry
 end
