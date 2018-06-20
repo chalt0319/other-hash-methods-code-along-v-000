@@ -11,6 +11,5 @@ require 'pry'
 def get_the_keys(groceries)
   groceries.collect do |group, food|
     "#{group}"
-binding.pry 
 end 
 end
