@@ -10,5 +10,5 @@ require 'pry'
 
 def get_the_min(groceries)
   groceries.values = new_array
-  new_array.min 
+  new_array.sort.first
 end
