@@ -9,8 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  groceries.values.flatten = new_array
-  new_array.sort = sorted_array
-  sorted_array.first 
-binding.pry
+  new_array = groceries.values.flatten
+  sorted_array = new_array.sort
+  new = sorted_array.first
 end
